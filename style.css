@@ -1,0 +1,479 @@
+
+body
+{
+    margin: 0;
+    padding-bottom: 50px;   
+}
+
+p
+{
+    font-family:UberMove, sans-serif
+}
+
+
+
+/* Hearder */
+/* section one */
+
+.background-picture
+{
+    background-image: url("main\ image.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+    
+}
+
+.header
+{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section
+{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.hamburger-icon
+{
+    height: 26px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.uber-eats-logo
+{
+    height: 22px;
+}
+
+.right-section
+{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    flex: 1;
+    justify-content: end;
+    column-gap: 20px;
+}
+
+.user-icon
+{
+     width: 22px;
+     height: 20px;
+     padding-top: 5px;
+}
+
+
+.log-in-button
+{
+    width: 90px;
+    height: 43px;
+    font-size: 16px;
+    border-radius: 25px;
+    border-width: 0;
+    font-weight: 400;
+    padding-bottom: 8px;
+    background-color: #fff;
+}
+
+
+.sign-up-button
+{
+    width: 80px;
+    height: 43px;
+    font-size: 16px;
+    margin-right: 30px;
+    border-radius: 25px;
+    border-width: 0;
+    background-color: black;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.15s;
+}
+
+.sign-up-button:hover
+{
+    background-color: rgb(69, 65, 65);
+}
+
+.order
+{
+    font-family:UberMove, sans-serif ;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 180px;
+    margin-bottom: 40px;
+    
+}
+
+.search-area
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.location-icon
+{
+    margin-left:30px ;
+    height: 50px;
+}
+
+.searching
+{  
+  height: 48px;
+  width: 440px;
+  margin-right: 7px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-family:UberMove, sans-serif ;
+  border: none;
+}
+
+.clock-icon
+{
+    height: 50px;
+    width: 60px;
+    background-color: #fff;
+}
+
+.order-now
+{
+    font-size: 15px;
+    font-weight: 500;
+    width: 110px;
+    margin-right: 7px;
+    height: 50px;
+    font-family:UberMove, sans-serif ;
+    border: none;
+}
+
+.find-food
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.15s;
+}
+
+.find-food:hover
+{
+    background-color: rgb(69, 65, 65);
+}
+
+.sign-in-para
+{
+    margin-left: 30px;
+    font-size: 13px;
+    font-family:UberMove, sans-serif ;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+
+/* section two */
+
+.section-two
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    column-gap: 25px;
+    margin-bottom: 70px;
+}
+
+.feed
+{
+    flex: 1;
+    height: 235px;
+}
+
+.feed-para
+{
+   font-size: 28px;
+   font-family: UberMove, sans-serif;
+   font-weight: 700;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.your-restaurant
+{
+    flex: 1;
+    height: 235px;
+}
+
+.your-para
+{
+    font-size: 28px;
+    font-family: UberMove, sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.deliver
+{
+    flex: 1;
+    height: 235px;
+}
+
+.deliver-para
+{
+    font-size: 28px;
+   font-family: UberMove, sans-serif;
+   font-weight: 700;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+
+/* section three */
+
+.section-three
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cities
+{
+  display: flex;
+  font-size: 34px;
+  font-weight: 700;
+  padding-left: 25px;
+  margin: 0;
+}
+
+.view-all
+{
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 20px;
+    margin-right: 35px;
+}
+
+
+/* Section-four */
+
+.section-four
+{
+    margin-top: 25px;
+    margin-left:30px ;
+}
+
+.section-four-image
+{
+    width: 1320px;
+    height: 350px;
+    
+}
+
+
+/* Section five */
+
+.section-five
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 4px;
+    margin-left: 30px;
+    font-size: 15px;
+    color: rgb(46, 34, 34);
+    margin-top: 15px;
+}
+
+ 
+/* Section six */
+
+.section-six
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.countries
+{
+  display: flex;
+  font-size: 34px;
+  font-weight: 700;
+  padding-left: 25px;
+  margin: 0;
+}
+
+.view-all-countries
+{
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 20px;
+    margin-right: 35px;
+}
+
+/* Section seven */
+.section-seven
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 4px;
+    margin-left: 30px;
+    font-size: 15px;
+    color: rgb(46, 34, 34);
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+
+
+
+
+/* Footer */
+
+/* Section eight */
+
+.section-eight
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+
+.ubereats-logo
+{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+
+
+.section-eigh-icons
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.appstore-icon
+{
+     margin-top: 200px;
+     width: 135px;
+     height: 40px;
+     margin-left: 30px;
+     margin-bottom: 15px;
+}
+
+.googlepay-icon
+{
+    margin-top: 150px; 
+    width: 135px;
+    height: 40px;
+    margin-left: 15px ;
+    margin-bottom: 15px;
+}
+
+.section-eightone
+{
+   width: 720px;
+}
+
+
+.section-eighttwo
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 680px;
+    column-gap: 5px;
+    row-gap: 0px;
+    font-size: 15px;
+}
+
+/* section nine */
+
+.section-nine
+{
+   display: flex;
+   flex-direction: row;
+}
+
+.section-nineone
+{
+  width: 820px;
+  background-color: white;
+  padding-top: 20px;
+}
+
+.facebook-icon
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 35px;
+}
+
+.twitter-icon
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.instagram-icon
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px; 
+}
+
+.section-ninetwo
+{
+  flex: 1; 
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  justify-content: space-evenly;
+}
+
+
+/* Section ten */
+
+.section-ten
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.tenone
+{
+   padding-left: 550px;
+}
+
+.tentwo
+{
+    padding-right: 25px;
+}
+
